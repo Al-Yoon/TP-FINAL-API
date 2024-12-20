@@ -11,13 +11,33 @@ EasyPays es una aplicación web para gestionar y dividir gastos de manera sencil
 ## Clonar el Repositorio
 
 Primero, clona el repositorio desde GitHub:
-(BACKEND)
-https://github.com/loveonick/backendEasyPays
+(BACKEND)  https://github.com/Al-Yoon/BACK-API-TPO-FINALE
 
 (FRONTEND)
 https://github.com/Al-Yoon/EasyPays.git
 
 git clone
+
+## Configuración del Frontend
+
+### 1. Navegar a la Carpeta del Frontend
+
+Abre una nueva terminal y navega a la carpeta del frontend:
+
+
+sh cd ../frontend
+
+### 2. Instalar Dependencias
+
+
+sh npm install
+
+### 3. Iniciar el Servidor de Desarrollo del Frontend
+
+
+sh npm start
+
+Esto iniciará el servidor de desarrollo del frontend en `http://localhost:3000`.
 
 ## Configuración del Backend
 
@@ -34,7 +54,6 @@ sh npm install
 ### 3. Configurar Variables de Entorno
 
 Crea un archivo `.env` en la carpeta `backend` con las siguientes variables de entorno. Asegúrate de cambiar las configuraciones según tu servidor MySQL y tus claves API:
-
 
 env
 
@@ -72,27 +91,6 @@ Luego de que se inicie el backend y se creen las tablas, abrir el archivo querie
 Ahora con eso se pueden probar los endpoints en postman. El link es este:
 
 https://easypays-5691.postman.co/workspace/be740b79-bf54-4938-b627-edc8d035f242/overview
-
-## Configuración del Frontend
-
-### 1. Navegar a la Carpeta del Frontend
-
-Abre una nueva terminal y navega a la carpeta del frontend:
-
-
-sh cd ../frontend
-
-### 2. Instalar Dependencias
-
-
-sh npm install
-
-### 3. Iniciar el Servidor de Desarrollo del Frontend
-
-
-sh npm start
-
-Esto iniciará el servidor de desarrollo del frontend en `http://localhost:3000`.
 
 ## Verificación
 
