@@ -1,4 +1,4 @@
-# EasyPays
+# EasyPays - FrontEnd
 
 EasyPays es una aplicación web para gestionar y dividir gastos de manera sencilla y eficiente. Esta guía te ayudará a configurar y ejecutar el proyecto tanto para el backend como para el frontend.
 
